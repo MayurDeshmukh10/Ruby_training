@@ -1,7 +1,7 @@
+	
 module Superpower
 
 	def check_run
-		 
 		if @power == "run"
 			puts "He can run fast"
 		else
@@ -10,7 +10,6 @@ module Superpower
 	end
 	
 	def check_fly
-		
 		if @power == "fly"
 			puts "He can fly"
 		else
@@ -30,13 +29,10 @@ end
 	
 
 class Superhero
-
 	include Superpower
 	def initialize(power)
 		@power = power
-	end
-	
-	
+	end	
 end
 
 
