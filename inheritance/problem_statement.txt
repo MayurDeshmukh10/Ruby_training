@@ -1,0 +1,4 @@
+Problem Statement :
+
+Create Person, Customer, Employee, Manager classes and implement inheritance between them.
+	
